@@ -15,6 +15,7 @@ func main() {
 	router := gin.Default()
 
 	// API routes
+	// test change
 	api := router.Group("/api")
 	{
 		api.GET("/skills", handlers.GetSkills)
